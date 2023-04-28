@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="stylesheet" href="style.css">
+    <title>Personal Protfolio Website With Typing Effect</title>
+</head>
+<body>
+    <di class="container">
+        <nav>
+            <div class="logo">folio <b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="http://linkedin.com/in/dhinesh2812" class="fa fa-linkedin"> </a> 
+                <a href="http://wa.me/8668112812" class="fa fa-whatsapp"></a>
+                <a href="http://instagram.com/thenameis_dhinesh/" class="fa fa-instagram"> </a>  
+                <a href="http://facebook.com/dhineshdonclassic" class="fa fa-facebook"> </a> 
+                <a href="http://twitter.com/nameisdhinesh" class="fa fa-twitter"> </a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p> I have always been interested in web development, and I have the necessary skills required for the role. I have a good understanding of HTML, CSS, JavaScript, and Jqueries.</p>
+                <div class="btns">
+                <button>Download CV</button>
+                <button>Hire Me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+            <div class="imgbox">
+                <img src="background.png" id="splash">
+                <img src="img.png">
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Developer","coder","designer","Youtuber","Creator" ],
+            loop:true, 
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+</body>
+</html>
